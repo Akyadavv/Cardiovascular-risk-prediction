@@ -1,5 +1,9 @@
 # Cardiovascular-risk-prediction
+# Objective
+
 This classification project aims to predict whether the patient has 10 -year risk of future coronary heart disease(CHD). The information can make patients aware in advance so that they can prevent that from happening. The dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. It includes over 4,000 records and 15 attributes. Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk factors. Following are the steps taken to complete this project:
+
+# Approach:
 
 1. Understanding Data : The given data set had shape of (3390, 17), It had null values, outliers and class imbalance.
 
@@ -8,6 +12,8 @@ This classification project aims to predict whether the patient has 10 -year ris
 3. Feature engineering and Data preprocessing: this step involves adding new feature to the dataset and prepare dataset by removing null values , removing outliers and by handling calss imbalance, so that I could apply ml models.
 
 4. ML model implementation : Applied different Ml models on the processed dataset and evaluted the metrics.
+
+# Conclusion
 
 In conclusion, the cardiovascular disease classification project aimed to predict the 10-year risk of future coronary heart disease (CHD) in patients using various machine learning models. The models utilized in the project included logistic regression, decision tree, random forest, support vector machine (SVM), and XGBoost boosting algorithm.
 
